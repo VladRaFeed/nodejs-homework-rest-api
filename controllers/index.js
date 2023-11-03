@@ -6,6 +6,7 @@ const updateContact = require("./contactsControllers/updateContact");
 const updateFavorite = require("./contactsControllers/updateFavorite");
 const register = require("./authControllers/register");
 const login = require("./authControllers/login");
+const getCurrent = require("./authControllers/getCurrent")
 
 module.exports = {
   addContact,
@@ -16,4 +17,5 @@ module.exports = {
   updateFavorite,
   register,
   login,
+  getCurrent
 };
