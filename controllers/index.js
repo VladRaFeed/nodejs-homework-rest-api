@@ -9,6 +9,8 @@ const login = require("./authControllers/login");
 const getCurrent = require("./authControllers/getCurrent");
 const logout = require("./authControllers/logout");
 const updateAvatar = require("./authControllers/updateAvatar");
+const verifyEmail = require("./authControllers/verifyEmail");
+const resendVerifyEmail = require("./authControllers/resendVerifyEmail");
 
 module.exports = {
   addContact,
@@ -22,4 +24,6 @@ module.exports = {
   getCurrent,
   logout,
   updateAvatar,
+  verifyEmail,
+  resendVerifyEmail
 };
